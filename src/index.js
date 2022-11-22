@@ -1,3 +1,3 @@
-import { homepageElements } from "./page-load";
+import { homepageElements } from "./homePage";
 homepageElements()
 console.log('index.js loaded');
