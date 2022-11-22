@@ -1,0 +1,40 @@
+:root{
+    --main-color: #967250;
+    --font-light-color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#content{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+header{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+.greetingContainer{
+    text-align: center;
+    background-color: #dfdad7;
+}
+
+footer{
+    background-color: var(--main-color);
+}

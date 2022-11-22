@@ -46,12 +46,12 @@ function createMain() {
     const welcomeText = document.createElement('h1')
     welcomeText.classList.add('welcomeText')
     welcomeText.textContent = 'Welcome!'
-    greetingContainer.appendChild(welcomeText)
+    main.appendChild(welcomeText)
 
     const restaurantName = document.createElement('h1')
     restaurantName.classList.add('restaurantName')
     restaurantName.textContent = 'Cafe Roast'
-    greetingContainer.appendChild(restaurantName)
+    main.appendChild(restaurantName)
 
     return main
 }
