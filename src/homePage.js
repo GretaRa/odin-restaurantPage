@@ -44,7 +44,7 @@ function createNav() {
 
 function createMain() {
   const main = document.createElement("div");
-  main.classList.add("mainContainer");
+    main.setAttribute("id", "mainContainer");
 
   const homePageContent = document.createElement("div");
   homePageContent.classList.add("homePageContent", "tabContent");

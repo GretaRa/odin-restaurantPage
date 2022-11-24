@@ -58,12 +58,17 @@ header {
   font-size: 3rem;
 }
 
-.mainContainer {
+#mainContainer {
   text-align: center;
   background-color: var(--light-brown-color);
   width: 80%;
   margin: 2rem auto;
   border-radius: 10px;
+}
+
+.menuCard{
+    border: 1px solid #fff;
+    min-height: 100px;
 }
 
 footer {

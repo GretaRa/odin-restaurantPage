@@ -1,6 +1,7 @@
 import { homepageElements} from "./homePage";
-import {sample} from "./menuPage"
+import {renderMenu} from "./menuPage"
 homepageElements()
+renderMenu()
 
 const tabContents = document.querySelectorAll(".tabContent");
 const tabLinks = document.querySelectorAll(".tabLinks");
