@@ -1,7 +1,7 @@
 :root {
   --main-color: #7b4229;
   --light-brown-color: #b4754f;
-  --light-background-color: #492515 ;
+  --light-background-color: #492515;
   --font-light-color: #ffffff;
 }
 
@@ -26,7 +26,7 @@ header button {
   cursor: pointer;
 }
 
-.active{
+.active {
   background-color: var(--main-color);
   border: var(--light-background-color) solid 2px;
   text-decoration: underline;
@@ -73,7 +73,7 @@ header {
   margin: 2rem auto;
   border-radius: 10px;
 }
-.menuItem{
+.menuItem {
   border: 3px solid var(--light-background-color);
   border-radius: 10px;
   display: grid;
@@ -84,7 +84,7 @@ header {
   column-gap: 2rem;
 }
 
-.menuItem img{
+.menuItem img {
   grid-row: 1/3;
   display: block;
   width: 100%;
@@ -95,13 +95,13 @@ header {
   border-radius: 2rem;
 }
 
-.menuItem h2{
+.menuItem h2 {
   justify-self: left;
   align-self: center;
   font-size: 2rem;
 }
 
-.menuItem p{
+.menuItem p {
   justify-self: left;
   font-size: 1.4rem;
 }

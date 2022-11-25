@@ -1,7 +1,9 @@
 import { homepageElements} from "./homePage";
 import {renderMenu} from "./menuPage"
+import { renderContact } from "./contactPage";
 homepageElements()
 renderMenu()
+renderContact()
 
 const tabContents = document.querySelectorAll(".tabContent");
 const tabLinks = document.querySelectorAll(".tabLinks");
