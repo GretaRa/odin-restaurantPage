@@ -5,11 +5,21 @@ function populateMenu() {
 
 
     menuPageContent.appendChild(
-        addMenuItem('Esspresso', 'A single shot of espresso')
+        addMenuItem('Esspresso', 'A concentrated form of coffee served in small, strong shot')
     )
     menuPageContent.appendChild(
-        addMenuItem('Latte', "Coffee with milk foam")
+        addMenuItem('Latte', "Coffee drink, made with a shot of espresso, steamed milk, and topped with a milk microfoam layer of around 0.2 to 0.4 inches (0.5 to 1 cm)")
     )
+    menuPageContent.appendChild(
+        addMenuItem('Frappuccino', "A blended iced coffee drink with a choice of caramel or dark chocolate flavours")
+    )
+    menuPageContent.appendChild(
+        addMenuItem('Cappuccino', "An espresso-based hot coffee beverage made of a shot of espresso and steamed and frothed milk")      
+    )
+    menuPageContent.appendChild(
+        addMenuItem('Americano', "Espresso-based coffee drink made of a shot of espresso, diluted with hot water")
+    )
+
     return menuPageContent
 }
 
@@ -27,7 +37,7 @@ function addMenuItem (title, description){
     itemDesc.textContent = description
 
     const itemImg = document.createElement('img')
-    itemImg.src = '/img/${title.toLowerCase()}.png'
+    itemImg.src = `../img/${title.toLowerCase()}.jpg`;
     itemImg.alt = `A picture of ${title}`
 
     menuItem.appendChild(itemImg)
