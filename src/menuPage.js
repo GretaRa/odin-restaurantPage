@@ -3,6 +3,11 @@ function populateMenu() {
   menuPageContent.classList.add("menuPageContent", "tabContent");
   menuPageContent.setAttribute("id", "menu");
 
+  const pageTitle = document.createElement('h1')
+  pageTitle.classList.add("pageTitle");
+  pageTitle.textContent = 'Our Menu'
+
+  menuPageContent.appendChild(pageTitle)
   menuPageContent.appendChild(
     addMenuItem(
       "Esspresso",
@@ -12,7 +17,7 @@ function populateMenu() {
   menuPageContent.appendChild(
     addMenuItem(
       "Latte",
-      "Coffee drink, made with a shot of espresso, steamed milk, and topped with a milk microfoam layer of around 0.2 to 0.4 inches (0.5 to 1 cm)"
+      "Coffee drink, made with a shot of espresso, steamed milk, and topped with a milk microfoam layer"
     )
   );
   menuPageContent.appendChild(

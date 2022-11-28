@@ -51,18 +51,26 @@ function createMain() {
   homePageContent.setAttribute("id", "home")
 
   const welcomeText = document.createElement("h1");
-  welcomeText.classList.add("welcomeText");
+  welcomeText.classList.add("welcomeText", 'pageTitle');
   welcomeText.textContent = "Welcome!";
   
-
-  const restaurantName = document.createElement("h1");
+  const restaurantName = document.createElement("h2");
   restaurantName.classList.add("restaurantName");
-  restaurantName.textContent = "Cafe Roast";
+  restaurantName.textContent = "Visit Cafe Roast";
+
+  const restaurantDescription = document.createElement('p')
+  restaurantDescription.classList.add("restaurantDescription");
+  restaurantDescription.textContent = 'And discover the taste of real coffee..'
   
+  const address = document.createElement("p");
+  address.classList.add("address");
+  address.textContent = "Boulevard avenue 73, 1874RR, Espressity";
 
   main.appendChild(homePageContent);
   homePageContent.appendChild(welcomeText);
   homePageContent.appendChild(restaurantName);
+  homePageContent.appendChild(restaurantDescription)
+  homePageContent.appendChild(address)
 
   return main;
 }
