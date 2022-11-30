@@ -270,7 +270,7 @@ function addMenuItem(title, description) {
   itemDesc.textContent = description;
 
   const itemImg = document.createElement("img");
-  itemImg.src = `../dist/img/${title.toLowerCase()}.jpg`;
+  itemImg.src = `img/${title.toLowerCase()}.jpg`;
   itemImg.alt = `A picture of ${title}`;
 
   menuItem.appendChild(itemImg);
