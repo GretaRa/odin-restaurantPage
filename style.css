@@ -46,7 +46,7 @@ header {
   padding-top: 0.8rem;
 
   /* Photo by Mike Kenneally on Unsplash*/
-  background-image: url(/img/coffee-beans.jpg);
+  background-image: url(img/coffee-beans.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
